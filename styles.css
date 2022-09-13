@@ -1,5 +1,6 @@
 body{
 background: linear-gradient(to right, rgb(10, 10, 19) 50%,rgba(0, 0, 255, 0.747) 50%);
+   min-height: 100vh;
 }
 /* contains both the nav-bar & logo */
 header{

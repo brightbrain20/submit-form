@@ -1,0 +1,256 @@
+body{
+background: linear-gradient(to right, rgb(10, 10, 19) 50%,rgba(0, 0, 255, 0.747) 50%);
+}
+/* contains both the nav-bar & logo */
+header{
+   display: flex; 
+   justify-content: space-between;
+   padding-top: 30px;
+}
+
+.logo{
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-left: 220px;
+    color: white;
+}
+
+.nav{
+font-size: 30px;
+padding-right: 200px;
+
+}
+
+a{
+padding-left: 40px;
+text-decoration: none;
+color: white;
+}
+
+/* the main section */
+main{
+    display: flex;
+    padding-top: 50px;
+}
+
+.section1{
+    width: 450px;
+    height: 600px;
+    margin-top: 60px;
+    position: relative;
+    left: 300px;
+    background-color: rgb(40, 40, 87);
+    color: white;
+    box-shadow: 2px 0 10px black;
+}
+/* contact me section */
+.contact-me-section{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.contact-me{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.icon{
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.location{
+    display: flex;
+    padding-top: 20px;
+}
+
+.address{
+    font-size: 30px;
+    width: 240px;
+    padding-left: 20px;
+}
+.mails{
+    font-size:28px ;
+    width: 240px;
+    padding-left:20px ;  
+}
+.number{
+    font-size: 30px;
+   padding-left:20px ;
+}
+
+/* end of contact me section */
+.section2{
+    width: 1200px;
+    height: 700px;
+    
+    background-color: white;
+    box-shadow:0 1px 40px ;
+}
+
+/* section2 content */
+.info{
+    padding-top:60px ;
+    padding-left:350px ;
+
+}
+.send{
+font-size: 50px;
+font-family: sans-serif;
+}
+
+.flex-input{
+    display: flex;
+    padding-top: 10px;
+}
+
+label{
+    color: red;
+    font-size: 20px;
+}
+
+input{
+    width: 380px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    padding-top: 20px;
+    
+}
+.lastname{
+    padding-left: 30px;
+}
+.email{
+    padding-top: 50px;
+    width: 360px;
+}
+.message{
+    padding-top: 40px;
+}
+.textarea{
+    padding-top: 100px;
+    width: 800px;
+}
+
+.btm{
+    margin-top: 50px;
+    background-color: rgb(40, 40, 87);
+    margin-left: 160px;
+    color: white;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 30px;
+}
+
+@media(max-width: 770px){
+    body{
+        background: rgb(40, 40, 87);
+    }
+    
+    .logo{
+        padding-left: 20px;
+        
+    }
+
+    .nav{
+        padding-right: 0px;
+    }
+
+    a{
+        padding-left: 10px;
+        text-decoration: underline;
+    }
+    a:hover{
+        color: red;
+    }
+
+    main{
+        
+    }
+    .section1{
+        width: 350px;
+        height: 400px;
+        position: relative;
+        left: 1px;  
+        box-shadow:rgb(40, 40, 87) ;
+        margin-top: 120px;
+    }
+
+    .mails{
+        font-size: 22px;
+    }
+    .section2{
+        width: 400px;
+        background-color: rgb(40, 40, 87);
+        box-shadow: none;
+        padding-top: 90px;
+
+    }
+    .info{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .send{
+        font-size: 40px;
+        text-align: center;
+        color: red;
+    }
+    .flex-input{
+        display: inline;
+    }
+    label{
+        color: white;
+        font-size: 30px;
+    }
+    .firstname{
+        margin-left: 30px;
+    }
+
+    input{
+        width: 340px;
+        background-color: rgb(40, 40, 87);
+    }
+    .email{
+        width: 340px;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .message{
+        margin-left: 30px;
+        padding-top: 5px; 
+    }
+    .textarea{
+        padding-top: 15px;
+        width: 340px;
+    }
+    .btm{
+        margin-left: 100px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 0  80px;
+    }
+}
+
+@media(max-width: 420px){
+    .logo{
+        font-size: 30px;
+        color: red;
+    }
+.nav{
+    padding-left: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+    
+}
+
+main{
+    display: inline;
+}
+.section1{
+    margin-left: 20px;
+}
+.email{
+    padding-top:30px ;
+}
+}
